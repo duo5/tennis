@@ -12,7 +12,7 @@ var canvas;
 var ctx;
 var playerScore = 0;
 var computerScore = 0;
-var  bal = new ball(200,400,30,10,5);
+var  bal = new ball(200,400,30,20,20);
 
 function getMousePos(evt){
 var rect = canvas.getBoundingClientRect();
